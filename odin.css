@@ -32,14 +32,16 @@ main {
     max-width:600px;
     margin-right:40px;
     object-fit: contain;
+    border-radius:10px;
+    opacity:0.92 ;
     
 }
 button {
     font-family:roboto;
     height:35px;
-    background:#3882F6;;
+    background:#ffffff;;
     border-radius:7px;
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight:bold;
     font-size:17px;
     width:130px;
@@ -50,19 +52,23 @@ button {
 .header-body {
     display:flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:center;
     margin-top:100px;
 }
 header { 
    color:white;
     height:75vh;
-    background:#1f2937;
+    background:#000000;
+    background-image: url('https://images.pexels.com/photos/236296/pexels-photo-236296.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .nav-links {   
     display:flex;
     justify-content:space-around;
-  
+    gap:100px;
 }
 
 pre {
@@ -91,7 +97,7 @@ pre {
     align-items: center;
     justify-content: space-around;
     height:22vh;
-    background-color:#3882F6;
+    background-color:#000000;
     width:70vw;
     border-radius: 10px;
 }
@@ -122,7 +128,7 @@ pre {
 
 .header-logo {
     color:white;
-    font-weight:800;
+    font-weight:600;
     font-size:25px;
     margin-top:15px;
      margin-left:40px;
@@ -132,7 +138,7 @@ pre {
      margin-right:80px;
     display:flex;
     list-style-type:none;
-    gap:20px;
+    gap:45px;
     font-size:17px;
      margin-top:20px;
     
@@ -153,7 +159,6 @@ a {
     height:70vh;
     display:flex;
     flex-direction:column;
-    border:10px solid red;
     justify-content: center;
      align-items:center;
     flex-direction:column;;
@@ -167,8 +172,8 @@ a {
 }
 .cluster img{
     border-radius:15px;
-    width:200px;
-    height:300px;
+    width:230px;
+    height:310px;
 }
 .information {
     text-align:center;
@@ -178,7 +183,7 @@ a {
     font-family:roboto;
     height:40px;
    
-    background:#3882F6;;
+    background:#000000;;
     border-radius:7px;
     color:rgb(255, 255, 255);
     font-weight:bold;
@@ -192,7 +197,7 @@ a {
 .footer {
     height: 15vh;
     display: flex;
-    background-color: #1F2937;
+    background-color: #000000;
     color:white;
     justify-content: center;
     align-items: center;
